@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deadband-protocol"
+version = "0.1.0"
+description = "Train safe channels, not danger catalogs. P0 blocks danger, P1 finds safe channels, P2 optimizes."
+license = {text = "MIT"}
+requires-python = ">=3.10"
+keywords = ["deadband", "safety", "ai-safety", "agents", "constraint", "plato"]
+classifiers = ["Development Status :: 3 - Alpha", "License :: OSI Approved :: MIT License", "Programming Language :: Python :: 3"]
+
+[project.urls]
+Homepage = "https://github.com/cocapn/cocapn"
+
+[tool.setuptools.packages.find]
+include = ["deadband_protocol*"]
