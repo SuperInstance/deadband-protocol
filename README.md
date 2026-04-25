@@ -1,5 +1,8 @@
 # deadband-protocol
 
+[![PyPI](https://img.shields.io/pypi/v/deadband-protocol)](https://pypi.org/project/deadband-protocol/) [![Python](https://img.shields.io/pypi/pyversions/deadband-protocol)](https://pypi.org/project/deadband-protocol/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 Navigate by knowing where the rocks are NOT.
 
 A three-tier safety protocol for AI agent systems. Instead of cataloging every possible danger, the deadband protocol defines safe operating channels and blocks everything outside them.
